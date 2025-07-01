@@ -15,7 +15,13 @@ public class PrimeNumber {
 	}
 
 	void factorial() {
-		System.out.println("Factorial method is not implemented yet.");
+		for (int i = 1; i <= 10; i++) {
+			int fact = 1;
+			for (int j = 1; j <= i; j++) {
+				fact *= j; // Calculate factorial
+			}
+			System.out.println("Factorial of " + i + " is " + fact);
+		}
 
 	}
 
