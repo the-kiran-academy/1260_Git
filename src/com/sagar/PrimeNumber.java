@@ -14,6 +14,17 @@ public class PrimeNumber {
 		return true; // No divisors found, hence prime
 	}
 
+	void factorial() {
+		for (int i = 1; i <= 10; i++) {
+			int fact = 1;
+			for (int j = 1; j <= i; j++) {
+				fact *= j; // Calculate factorial
+			}
+			System.out.println("Factorial of " + i + " is " + fact);
+		}
+
+	}
+
 	public static void main(String[] args) {
 		int number = 29; // Example number to check
 		if (isPrime(number)) {
