@@ -14,6 +14,11 @@ public class PrimeNumber {
 		return true; // No divisors found, hence prime
 	}
 
+	void factorial() {
+		System.out.println("Factorial method is not implemented yet.");
+
+	}
+
 	public static void main(String[] args) {
 		int number = 29; // Example number to check
 		if (isPrime(number)) {
