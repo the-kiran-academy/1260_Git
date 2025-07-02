@@ -9,7 +9,7 @@ public class Sum_Even {
 				sum=sum+i;
 			}
 		}
-		System.out.println(sum);
+		System.out.println("Sum : "+sum);
 
 	}
 
