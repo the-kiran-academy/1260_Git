@@ -1,7 +1,5 @@
 package com.pranita;
 
-import java.util.Iterator;
-
 public class Sum_Even {
 
 	public static void main(String[] args) {
