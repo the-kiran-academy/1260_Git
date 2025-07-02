@@ -26,7 +26,7 @@ public class LargeThreeNum {
 			}
 		}
 
-		System.out.println("Largest Num : " + largest);
+		System.out.println("Largest 3 Number : " + largest);
 
 	}
 }
