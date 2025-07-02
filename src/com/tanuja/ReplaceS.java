@@ -24,7 +24,7 @@ public class ReplaceS {
 	        String result = original.replace(toReplace, newWord);
 
 	        // Output result
-	        System.out.println("Updated string: " + result);
+	        System.out.println("Updated : " + result);
 
 	        // Close Scanner
 	        sc.close();
