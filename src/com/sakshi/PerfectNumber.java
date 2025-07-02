@@ -21,7 +21,7 @@ public class PerfectNumber {
         if (sum == num) {
             System.out.println(num + " is a Perfect Number.");
         } else {
-            System.out.println(num + " is NOT a Perfect Number.");
+            System.out.println(num + " is not a Perfect Number.");
         }
     }
 }
