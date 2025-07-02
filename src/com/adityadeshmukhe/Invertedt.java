@@ -1,6 +1,6 @@
 package com.adityadeshmukhe;
 
-public class invertedT {
+public class Invertedt {
 	    public static void main(String[] args) {
 	        int rows = 5; // You can change the number of rows
 
